@@ -1,0 +1,11 @@
+# Khai báo thư viện
+import math
+
+# Nhập dữ liệu
+x = float(input("Moi ban nhap vao gia tri cua bien so x: "))
+
+# Xử lý
+f_x = x + (x**5) / math.factorial(5) + math.sqrt(abs(x)) / (x**(3/2))
+
+# Xuất dữ liệu
+print(f"Gia tri cua ham so f({x}) = {f_x:.2f}.")
