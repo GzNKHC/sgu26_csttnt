@@ -1,0 +1,15 @@
+s = input("Moi ban nhap chuoi ky so s: ")
+
+en = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+vi = ["khong", "mot", "hai", "ba", "bon", "nam", "sau", "bay", "tam", "chin"]
+num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Xử lý
+s_lower = s.lower()
+
+if s_lower in en:
+    i = en.index(s_lower)
+    print("Chuoi hop le")
+    print(f'"{s}" bieu dien cho "{num[i]}" va ung voi tieng Viet "{vi[i]}"')
+else:
+    print("Chuoi khong hop le")

@@ -1,0 +1,18 @@
+# Nhập dữ liệu
+n = int(input("Moi ban nhap so nguyen n: "))
+
+# Xử lý
+if n < 2:
+    la_nt = False
+else:
+    la_nt = True
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            la_nt = False
+            break
+
+# Xuất dữ liệu
+if la_nt == True:
+    print(f'{n} la so nguyen to.')
+else:
+    print(f'{n} khong la so nguyen to.')
