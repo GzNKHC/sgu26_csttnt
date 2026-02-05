@@ -1,0 +1,11 @@
+DFS(cur):
+    nếu cur đã thăm → return
+    đánh dấu cur
+
+    for x từ 1 đến sqrt(cur):
+        nếu cur % x == 0:
+            y = cur / x
+            nếu x <= y:
+                new = (x-1)*(y+1)
+                nếu new >= 0:
+                    DFS(new)

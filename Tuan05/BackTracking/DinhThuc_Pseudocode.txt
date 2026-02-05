@@ -1,0 +1,14 @@
+det(A, n):
+    nếu n == 1: return A[0][0]
+    nếu n == 2: return A[0][0]*A[1][1] - A[0][1]*A[1][0]
+
+    ans = 0
+
+    for j = 0 → n-1:
+        tạo ma trận con B (bỏ hàng 0, cột j)
+
+        sign = (-1)^j
+
+        ans += sign * A[0][j] * det(B, n-1)
+
+    return ans
