@@ -1,0 +1,4 @@
+﻿Model,Accuracy,Precision,Recall,F1-score,AUC
+Baseline best: GradientBoosting (raw),1.0,1.0,1.0,1.0,1.0
+Tuned SVM (standard),1.0,1.0,1.0,1.0,1.0
+Tuned KNN (standard),0.9975,0.9946,1.0,0.9973,0.9977

@@ -1,0 +1,3 @@
+﻿Model,Preprocessing,Test_Precision
+GradientBoosting,raw,1.0
+MLP,raw,1.0
