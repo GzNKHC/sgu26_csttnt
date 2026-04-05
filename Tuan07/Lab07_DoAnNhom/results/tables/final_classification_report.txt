@@ -1,0 +1,16 @@
+Mô hình được chọn: Tuned KNN (standard)
+
+Confusion Matrix:
+          Predicted 0  Predicted 1
+Actual 0          128           22
+Actual 1           36           45
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.7805    0.8533    0.8153       150
+           1     0.6716    0.5556    0.6081        81
+
+    accuracy                         0.7489       231
+   macro avg     0.7261    0.7044    0.7117       231
+weighted avg     0.7423    0.7489    0.7426       231
