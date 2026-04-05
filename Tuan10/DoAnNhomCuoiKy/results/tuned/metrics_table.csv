@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1-Score,AUC
+RF (GridSearch),1.0,1.0,1.0,1.0,1.0
+SVM (GridSearch),0.97,0.97,0.97,0.97,1.0
+kNN (GridSearch),0.97,0.97,0.97,0.97,1.0
+RF + balanced,0.97,0.97,0.97,0.97,1.0
+Stacking,1.0,1.0,1.0,1.0,1.0

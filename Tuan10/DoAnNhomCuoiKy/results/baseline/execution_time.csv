@@ -1,0 +1,11 @@
+Model,Time(s)
+kNN,0.0023
+NaiveBayes,0.0021
+SVM,0.004
+DecisionTree,0.0018
+RandomForest,0.0994
+AdaBoost,0.0542
+GradientBoosting,0.2125
+LDA,0.0024
+MLP,0.3708
+LogisticRegression,0.0076
